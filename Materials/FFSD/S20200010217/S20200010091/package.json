@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "s20200010217",
+  "version": "1.0.0",
+  "main": "S20200010217_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,544 @@
+[{
+  "_id": {
+    "$oid": "6241f4adf90110e848b989af"
+  },
+  "name": "Apple",
+  "description": "sample product",
+  "price": 1500,
+  "ratings": 4,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6241f4adf90110e848b989b0"
+      }
+    }
+  ],
+  "category": "Laptop",
+  "Stock": 1,
+  "numOfReviews": 1,
+  "reviews": [
+    {
+      "user": {
+        "$oid": "624464ba45ef95258c6dda90"
+      },
+      "name": "Chand",
+      "rating": 4,
+      "comment": "just okay",
+      "_id": {
+        "$oid": "625181bcd86feee1fd435884"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-03-28T17:47:25.729Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "6241f74a646908075e90654c"
+  },
+  "name": "Samsung",
+  "description": "sample product",
+  "price": 3500,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6241f74a646908075e90654d"
+      }
+    }
+  ],
+  "category": "Laptop",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-28T17:58:34.613Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6241f78e646908075e906552"
+  },
+  "name": "Huawei",
+  "description": "sample product",
+  "price": 500,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6241f78e646908075e906553"
+      }
+    }
+  ],
+  "category": "Phone",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-28T17:59:42.832Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624202bd2158506aa5af887a"
+  },
+  "name": "product4",
+  "description": "sample product",
+  "price": 12000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "624202bd2158506aa5af887b"
+      }
+    }
+  ],
+  "category": "Laptop",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-28T18:47:25.195Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624551b342b92625821516a2"
+  },
+  "name": "watch",
+  "description": "sample product",
+  "price": 12000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "624551b342b92625821516a3"
+      }
+    }
+  ],
+  "category": "Watch",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T07:01:07.646Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e4c97f63cdb423e2ac24"
+  },
+  "name": "sample name",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e4c97f63cdb423e2ac25"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:28:41.961Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e8823bbb19298a65792f"
+  },
+  "name": "test1",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e8823bbb19298a657930"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:44:34.745Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e8963aa7348aacad194e"
+  },
+  "name": "test2",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e8963aa7348aacad194f"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:44:54.055Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e95fefc9ed187770f1f7"
+  },
+  "name": "test3",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e95fefc9ed187770f1f8"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:48:15.173Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e9922560287a2f03ba03"
+  },
+  "name": "test3",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e9922560287a2f03ba04"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:49:06.076Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e99f4d4c33fe9ec0fa35"
+  },
+  "name": "test4",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e99f4d4c33fe9ec0fa36"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:49:19.133Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e9b4cff8a19338fa3c0a"
+  },
+  "name": "test5",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e9b4cff8a19338fa3c0b"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:49:40.952Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e9e5f4917fe5f5cb0723"
+  },
+  "name": "test6",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e9e5f4917fe5f5cb0724"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:50:29.566Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245e9f23d9d7469815b2db6"
+  },
+  "name": "test7",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245e9f23d9d7469815b2db7"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:50:42.846Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6245ea969a7508b9b05d83a8"
+  },
+  "name": "test8",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "6245ea969a7508b9b05d83a9"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T17:53:26.691Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624603e1785580dd4d7d2789"
+  },
+  "name": "test9",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "624603e1785580dd4d7d278a"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T19:41:21.796Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624603ee2b17fd3e0705ec40"
+  },
+  "name": "test10",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "624603ee2b17fd3e0705ec41"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T19:41:34.791Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624603fc98f8ebe7bf6c4297"
+  },
+  "name": "test11",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "624603fc98f8ebe7bf6c4298"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T19:41:48.676Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62460412713ae8d937958186"
+  },
+  "name": "test12",
+  "description": "sample product",
+  "price": 10000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "62460412713ae8d937958187"
+      }
+    }
+  ],
+  "category": "smart tv",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-03-31T19:42:10.430Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624c805de1442ed3abd8b7c0"
+  },
+  "name": "watch1",
+  "description": "sample product",
+  "price": 121000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "624c805de1442ed3abd8b7c1"
+      }
+    }
+  ],
+  "category": "machine",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "user": {
+    "$oid": "6244502e900d887e35450b15"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-04-05T17:46:05.828Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624c80ddfd16a2e7eddea1bf"
+  },
+  "name": "watch2",
+  "description": "sample product",
+  "price": 121000,
+  "ratings": 0,
+  "images": [
+    {
+      "public_id": "sample image",
+      "url": "sampleurl",
+      "_id": {
+        "$oid": "624c80ddfd16a2e7eddea1c0"
+      }
+    }
+  ],
+  "category": "machine",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "createdUser": {
+    "$oid": "6244502e900d887e35450b15"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-04-05T17:48:13.770Z"
+  },
+  "__v": 0
+}]

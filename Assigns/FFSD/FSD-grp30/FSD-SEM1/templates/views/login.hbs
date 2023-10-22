@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>bootstrap}}
+    <link rel="stylesheet" href="/css/login1.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light flex">
+        <div class="container-fluid" >
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-logo black" href="#"style="font-size:2rem;margin-left:2em;">TECH</a>
+                </li>
+            </ul>
+        </div>
+    </nav>   
+
+    <div class="container">
+        <form action="/login"  method="POST" id="myForm" >
+
+            <div class="heading">
+                <h4>LOGIN</h4>                
+            </div>
+
+            <div class="credentials">       
+                <input type="email" name="email" id="email" placeholder="Email">
+                <div class="email-err"></div>
+                <input type="password" name="password" id="pwd" placeholder="Password">
+                <div class="pwd-err"></div>   
+                <button type="submit" class="btn btn-dark login" >LOGIN</button>          
+            </div>
+
+            <div class="line1"></div>
+
+            <div class="other-options">
+                <button type="button" class="btn btn-dark sign-up"  onsubmit="return validate()">Sign-up</button><br>
+                <button type="button" class="btn btn-outline-dark google"><a href="/google">GOOGLE</a></button><br>
+                <button type="button" class="btn btn-outline-dark facebook" >LOG IN WITH FACEBOOK</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/53a3d8ca15.js" crossorigin="anonymous"></script>
+    <script src="/JS/Login.js"></script>
+</body>
+</html>

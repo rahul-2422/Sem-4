@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "62435d2938802da4c785db1b"
+  },
+  "name": "Chandra",
+  "email": "abc@gmail.com",
+  "password": "$2a$10$KMvMaj.V2jiTJD/JIQcqMuyxD7KLW5KGNW7iVQUkWV2wbOtNEs2Si",
+  "prof_pic": {
+    "public_id": "sameple id",
+    "url": "profilepic"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2022-03-29T19:25:29.966Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6244502e900d887e35450b15"
+  },
+  "name": "Sreekar",
+  "email": "abcde@gmail.com",
+  "password": "$2a$10$xK3BiKDyTadPS8tcbl8we.DU7uHxCIkn4Dw.gI44rgIvaLc6cPLJq",
+  "prof_pic": {
+    "public_id": "sameple id",
+    "url": "profilepic"
+  },
+  "role": "admin",
+  "createdAt": {
+    "$date": "2022-03-30T12:42:22.080Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624464ba45ef95258c6dda90"
+  },
+  "name": "Chand",
+  "email": "pvchandu07@gmail.com",
+  "password": "$2a$10$5eP/O46xRCevG/pnRw115e3dRbehm2fYDyFpIr0w8gMGFDD/kQbJi",
+  "prof_pic": {
+    "public_id": "sameple id",
+    "url": "profilepic"
+  },
+  "role": "admin",
+  "createdAt": {
+    "$date": "2022-03-30T14:10:02.060Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624b464c969c16f6f31e7192"
+  },
+  "name": "Chandu1",
+  "email": "CHANDU1@gmail.com",
+  "password": "$2a$10$n.rT5sin5iRsC0m7/nd5oeCAHq8CpDbPUL/BamwOFxddpNRKrRudS",
+  "prof_pic": {
+    "public_id": "sameple id",
+    "url": "profilepic"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2022-04-04T19:26:04.205Z"
+  },
+  "__v": 0
+}]

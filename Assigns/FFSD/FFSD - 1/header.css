@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Montserrat:ital,wght@0,400;1,100;1,600&family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Montserrat:ital,wght@0,400;1,100;1,600&family=Poppins:wght@100;200;300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+h4{
+    display: inline-block;
+}
+
+a{
+    /* display: inline-block; */
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -30px;
+}
+
+.purple{
+    color: rgb(9, 8, 87);
+}
+
+.black{
+    color:black;
+}
+
+.gray{
+    color:#969292
+}
+.font-poppin{
+    font-family: 'Poppins', sans-serif;
+}
+.line{
+    display: inline-block;
+    position: absolute;
+    border: 1px dotted #ececec;
+    background: #e0e0e0;
+    height: 1px;
+    width: 900px;
+}
+
+.margin{
+	border: 2px solid black;
+}
+
+.row{
+    padding: 0;
+}
+
+
+
+/* ###################################### */
+
+.nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: baseline;
+    padding: 0.5em;
+}
+
+.logo{
+    font-size: 2rem;
+    flex-grow: 1;
+    padding-left: 2em;
+}
+
+#search-header{
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 1em;
+    inset: none;
+    border: 2px solid black;
+}
+
+.search-header-button{
+    height: 50px;
+}
+
+#btnGroupDrop1{
+    background-color: white;
+    border: white;
+    margin-right: 10em;
+    font-size: 1.1rem;
+    border-radius:50px;
+}
+
+.search{
+    flex-grow: 1;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    flex-grow: 1;
+}
+
+/* ############################################### */
+
+.carousel .carousel-item {
+    position: relative;
+    height: 90vh;
+    /* width: 100vw; */
+}
+
+.carousel-item img {
+    /* position:fixed; */
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+      /* min-height: 500px; */
+}
+
+/* ############################################## */
+
+.container-2{
+    position: relative;
+    height: 900px;
+    width: 1210px;
+    /* border: 1px solid black; */
+    margin: 1.6rem auto;
+    padding: 10px;
+}
+
+.trending-products{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    position: absolute;
+    left:0;
+    right:0; 
+    top:10%;
+    height: 800px;
+    width: 100%;
+    margin-top: 0.5em;
+    /* border: 1px solid black; */
+}
+
+.trending-products .card{
+    /* position: relative; */
+    height: 380px;
+    width: 288px;
+    margin: 0.5em 0.25em;
+}
+
+.trending-products .card:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: all 0.5s;
+}
+
+.trending-products img{
+    height: 160px;
+    width: 160px;
+    margin: 3em auto;
+}
+
+.trending-products .card-text{
+    text-align: center;
+    letter-spacing:0.05em;
+}
+
+.trending-products .offer{
+    font-size: 0.8rem;
+    height: 17px;
+    width: 120px;
+    background-color: red;
+    top: 10%;
+    left: 0;
+    color: #efefef;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.trending-deals{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-bottom: 0.25em;
+}
+
+.trending-products i{
+    color: red;
+}
+.container-2 .line{
+    left: 50%;
+    top:9%;
+    transform: translate(-50%);   
+}
+
+/* #################################################### */
+
+.star-products{
+    width: 100%;
+    /* padding: 0 2rem; */
+    padding: 100px 0 0 0;
+}
+
+.star-products .product{
+    padding: 0 !important;
+}
+
+.star-products .col-6{
+    padding: 0%;
+
+}
+
+.star-products .row{
+    display: flex;
+    justify-content: center;
+}
+
+/* .best-deals{
+    display: flex;
+    flex-direction: column;
+} */
+
+.p-1{
+	height: 600px;
+	color: blue;
+}
+
+.p-2{
+	height: 300px;
+	color: blueviolet;
+}
+
+.p-3{
+	height: 300px;
+	color: aqua;
+}
+
+.p-4{
+	height: 300px;
+	color: brown;
+}
+
+.p-1 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.p-2 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.p-3 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.p-4 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* #################################################### */
+
+.cards{
+    height: 380px;
+    width: 288px;
+    margin: 0.5em 0.25em;
+}
+
+/* ######################################## */
+
+.pre-footer .card{
+    display: inline-block;
+    width:100px; 
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    text-align: center
+}
+
+.pre-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+.footer{
+    padding: 2rem;
+    height: 410px;
+    width: 100%;
+    background-color: #3a3636
+}
+
+.email-footer{
+    color: #efefef;
+    border-radius: 10px;
+    background: none;
+    height:40px;
+    width:300px;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+
+
+

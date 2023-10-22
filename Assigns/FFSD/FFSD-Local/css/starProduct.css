@@ -1,0 +1,114 @@
+/* .margin{
+	border: 2px solid black;
+} */
+
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+.star-products{
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	left:0;
+    right:0; 
+    top:10%;
+    height: 800px;
+    width: 1210px;
+    margin-top: 0.5em;
+    margin-left: 0% !important;
+    /* width: 100%; */
+    /* padding: 0 2rem; */
+    /* padding: 100px 0 0 0; */
+}
+
+/* .star-products .product{
+    padding: 0 !important;
+} */
+
+.star-products .col-6{
+    padding: 0%;
+
+}
+
+.star-products .box-1{
+    display: flex;
+    justify-content: space-between;
+    width: 1210px;
+    padding: 0 10px;
+}
+
+/* .star-products .row{
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .best-deals{
+    display: flex;
+    flex-direction: column;
+} */
+
+.star-products .card:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: all 0.5s;
+}
+
+.p-1{
+	height: 100%;
+    padding:0 10px 0 0 !important;
+	color: blue;
+}
+
+.p-2{
+	height: 50%;
+    padding: 0 5px 5px 0 !important;
+	color: blueviolet;
+}
+
+.p-3{
+	height: 50%;
+    padding: 0 0 5px 5px !important;
+	color: aqua;
+}
+
+.p-4{
+	height: 41.7%;
+    padding: 5px 0 0 0 !important;
+	color: brown;
+}
+
+.p-1 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.p-2 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.p-3 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.p-4 .card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* .p-4 .card-body{
+    height: 80px;
+} */
+
+.p-4 .card-img-top{
+    height: 60%;
+    object-fit: contain;
+}
+

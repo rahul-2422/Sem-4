@@ -1,0 +1,18 @@
+* Module in node :-
+	-> each file and folder is an individual module and cannot be accessed form other module.
+	-> Inorder to access information present in one module form another module we use import and export commands.
+		-> module.exports = "variable or function to be exported".
+		-> const "name of variable or function" = require("name of value that is to be imported").
+	
+	* fs-module : 
+		-> supports file I/O related operations.
+		-> usage : 
+			-> const fs = require("fs");
+	
+	* path-module :
+		-> has different methods to find different aspects of path name.
+
+	* os-module : 
+		-> supports operations related to the operating system on your device.
+
+	* http-module :
